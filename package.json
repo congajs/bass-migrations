@@ -1,0 +1,41 @@
+{
+	"name": "bass-migrations",
+	"version": "0.0.1",
+	"description": "Migration library for BASS",
+	"directories": {
+		"test": "test"
+	},
+	"main": "./index.js",
+	"scripts": {
+		"test": "mocha test/*.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/congajs/bass-migrations.git"
+	},
+	"keywords": [
+		"bass",
+		"bass-migration",
+		"bass-migrations",
+		"migration",
+		"migrations"
+	],
+	"author": {
+		"name": "Anthony Matarazzo"
+	},
+	"license": "MIT",
+	"dependencies": {
+
+	},
+	"devDependencies": {
+		"mocha": "1.9.0"
+	},
+	"readmeFilename": "README.md",
+	"readme": "# bass-migrations [![Build Status](https://secure.travis-ci.org/congajs/bass-migrations.png)](http://travis-ci.org/congajs/bass-migrations)\n\n## Overview\n\nThis is a Node.js library which allows you to migrate your database UP or DOWN using BASS.\n\n",
+	"bugs": {
+		"url": "https://github.com/congajs/bass-migrations/issues"
+	},
+	"homepage": "https://github.com/congajs/bass-migrations",
+	"_id": "bass-migrations@0.0.2",
+	"_from": "bass-migrations@0.0.2"
+}
