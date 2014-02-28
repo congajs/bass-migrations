@@ -1,7 +1,7 @@
 bass-migrations
 ===============
 
-Migration library for BASS, built on top of DB-MIGRATE
+Migration library for CONGA + BASS , built on top of DB-MIGRATE
 
 # Commands
 
