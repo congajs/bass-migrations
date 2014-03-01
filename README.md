@@ -3,6 +3,28 @@ bass-migrations
 
 Migration library for Conga.js + Bass.js , built on top of DB-MIGRATE
 
+# Configuration
+
+The following configuration options are available to you, bass.migrations.connection and bass.migrations.directory.
+
+	# configuration for Bass.js
+	bass:
+	
+	    # connections
+	    connections:
+	        mysql.default:
+	            ...
+	            ...
+	
+	    # configuration for bass-migrations
+	    migrations:
+	    
+	        # the connection name to use, under bass.connections
+	        connection: mysql.default
+	        
+	        # the path to generate and read migrations
+	        directory: %kernel.project_path%/_resources/migrations
+
 # Commands
 
 ## To generate a migration:
