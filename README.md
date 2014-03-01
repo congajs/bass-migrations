@@ -12,6 +12,8 @@ Add the bass-migration dependency in package.json.
 		"bass-migrations":"*"
 	}
 	
+Make sure all the dependencies are installed:
+
 	$ npm install
 
 # Configuration
