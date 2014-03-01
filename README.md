@@ -1,7 +1,7 @@
 bass-migrations
 ===============
 
-Migration library for CONGA + BASS , built on top of DB-MIGRATE
+Migration library for Conga.js + Bass.js , built on top of DB-MIGRATE
 
 # Commands
 
