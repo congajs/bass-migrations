@@ -3,6 +3,18 @@ bass-migrations
 
 Migration library for Conga.js + Bass.js , built on top of DB-MIGRATE
 
+# Installation
+
+Add the bass-migration dependency in package.json.
+
+	"dependencies":{
+		...
+		...
+		"bass-migrations":"*"
+	}
+	
+	$ npm install
+
 # Configuration
 
 The following configuration options are available to you, bass.migrations.connection and bass.migrations.directory.
