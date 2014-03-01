@@ -18,7 +18,7 @@ Make sure all the dependencies are installed:
 
 # Configuration
 
-The following configuration options are available to you, bass.migrations.connection and bass.migrations.directory.
+The following configuration options are available to you in, bass.migrations.connection and bass.migrations.directory.  Put this in app/config/config.yml
 
 	# configuration for Bass.js
 	bass:
