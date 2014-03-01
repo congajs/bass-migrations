@@ -8,8 +8,7 @@ Migration library for Conga.js + Bass.js , built on top of DB-MIGRATE
 Add the bass-migration dependency in package.json.
 
 	"dependencies":{
-		...
-		...
+
 		"bass-migrations":"*"
 	}
 	
