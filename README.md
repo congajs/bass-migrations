@@ -128,3 +128,23 @@ Here are some usage examples for implementing migrations:
 
 		.down('alter table my_table modify column name varchar(100) not null')
 		.down('alter table other_table drop column status');
+
+## CongaJS Container Migrations
+
+Container migrations will boot the CongaJS kernel and expose the app's service container in your migration.  See below for an example:
+
+	var Migration = require('bass-migrations').ContainerMigration;
+	module.exports = Migration;
+	
+	Migration.singleton()
+		
+		.up('alter table my_table add column foo varchar(100) null')
+		
+		.finishUp(function(db, cb) {
+			
+			var container = Migration.singleton().getContainer();
+			
+			var param = container.get('some.param');
+			
+			// etc...
+		});
