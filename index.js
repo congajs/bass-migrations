@@ -15,5 +15,6 @@
 module.exports = {
 	BaseCommand: require('./lib/BaseCommand') ,
 	Migration: require('./lib/Migration') ,
+	ContainerMigration: require('./lib/ContainerMigration') ,
 	Helper: require('./lib/Helper')
 };
