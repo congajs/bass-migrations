@@ -21,7 +21,8 @@
 		"migrations"
 	],
 	"author": {
-		"name": "Anthony Matarazzo"
+		"name": "Anthony Matarazzo" ,
+		"email": "email@anthonymatarazzo.com"
 	},
 	"license": "MIT",
 	"dependencies": {
